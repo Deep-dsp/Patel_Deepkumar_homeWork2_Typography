@@ -1,0 +1,86 @@
+body
+{
+	max-width: 1200px;
+	margin: auto;
+}
+
+/* Header Styling Starts Here */
+
+header
+{	
+	width: 1200px;
+	height: 121px;
+	background-color: black;
+
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.logo
+{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.logo img
+{
+	width: 100px;
+	height: auto;
+}
+
+nav
+{
+	margin-left: 400px;
+	margin-top: 5px;
+}
+
+ul li
+{
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 20px;
+}
+
+ul li a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	padding: 10px 20px;
+	border: 1px solid;
+	border-radius: 6px;
+	transition: 0.5s ease;
+}
+
+ul li a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+ul li.active a
+{
+	border-radius: 6px;
+	background-color: white;
+	color: black;
+}
+
+/* Header Styling Ends Here */
+
+/* Home Image and title Styling starts here */
+
+.homeImage
+{
+	width: 1200px;
+	height: 475px;
+	background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url('../images/why-muskoka.jpg');
+	background-repeat: no-repeat;
+	background-size: 1200px auto;
+}
+
+/* Home Image and title Styling ends here */
+
