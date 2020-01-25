@@ -82,5 +82,113 @@ ul li.active a
 	background-size: 1200px auto;
 }
 
+.mainTitle p
+{
+	font-family: 'Seaweed Script', cursive;
+	font-size: 100px;
+	color: black;
+	text-align: center;
+	margin-right: 200px;
+	position: absolute;
+	top: 130px;
+	padding-left: 200px;
+	color: white;
+	transform: rotate(-15deg);
+}
+
 /* Home Image and title Styling ends here */
 
+/* About Styling starts here */
+
+.aboutIntro
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 1200px;
+}
+
+/*.subTitle
+{
+	margin-top: 35px;
+}*/
+
+.intro
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.subTitle p
+{
+	font-family: 'Arial';
+	font-size: 15px;
+}
+
+.title
+{
+	font-family: 'Seaweed Script', cursive;
+	font-family: 'Anton', sans-serif;
+	font-size: 25px;
+	font-size: bolder;
+	text-align: justify-all;
+}
+
+.smallText
+{
+	font-family: 'Arial';
+	font-size: 10px;
+}
+
+.titleAlign
+{
+	margin-bottom: 25px;
+}
+
+/* About Styling starts here */
+
+/* Why Masuka stlying starts here */
+	
+.whyContainer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+	width: 1200px;
+	height: 419px;
+	background-color: #00C2EA;
+}
+
+.whyTitle
+{
+	font-family: 'Seaweed Script', cursive;
+	font-size: 60px;
+	color: black;
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 40px;
+	right: -150px;
+}
+
+.whyPara
+{
+	max-width: 500px;
+	height: auto;
+	position: relative;
+	left: 350px;
+	top: 90px;
+
+}
+
+.whyPara p
+{
+	font-size: 20px;
+	font-family: 'Arial';
+	color: white;
+	text-align: justify;
+}
+
+/* why masuka ends here */
