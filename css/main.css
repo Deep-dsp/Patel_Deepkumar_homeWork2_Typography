@@ -123,7 +123,7 @@ ul li.active a
 .subTitle p
 {
 	font-family: 'Arial';
-	font-size: 15px;
+	font-size: 18px;
 }
 
 .title
@@ -132,13 +132,13 @@ ul li.active a
 	font-family: 'Anton', sans-serif;
 	font-size: 25px;
 	font-size: bolder;
-	text-align: justify-all;
+	text-align: justify;
 }
 
-.smallText
+.smallText p
 {
 	font-family: 'Arial';
-	font-size: 10px;
+	font-size: 15px;
 }
 
 .titleAlign
@@ -218,6 +218,7 @@ ul li.active a
 	font-family: 'Arial', sans-serif;
 	font-size: 30px;
 	font-weight: bolder;
+	color: #00829C;
 }
 
 .imagePlane
@@ -225,8 +226,7 @@ ul li.active a
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .imageRow img
