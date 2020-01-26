@@ -124,6 +124,7 @@ ul li.active a
 {
 	font-family: 'Arial';
 	font-size: 18px;
+	line-height: 22px;
 }
 
 .title
@@ -203,7 +204,7 @@ ul li.active a
 
 	width: 1200px;
 	height: 531px;
-	background-color: lightgrey;
+	background-color: #DCDCDC;
 }
 
 .imageTitle
@@ -248,3 +249,136 @@ ul li.active a
 
 
 /* Image Container Styling Ends Here */
+
+/* Our Values Styling Starts Here */
+
+.brandValues, .firstValue, .secondValue, .thirdValue, .forthValue, .fifthValue
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	margin-top: 50px;
+}
+
+.fifthValue
+{
+	margin-left: 65px;
+}
+
+.valueTitle, .valueQuote
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.valuesContainer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.valuesContainer_fifth
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;	
+}
+
+.valueTitle p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+	color: #00829C;	
+}
+
+.valueQuote
+{
+	position: relative;
+	bottom: 28px;
+}
+
+.valueQuote p
+{
+	font-size: 25px;
+	font-family: 'Seaweed Script', cursive;
+}
+
+.firstTitle p, .secondTitle p, .thirdTitle p, .forthTitle p, .fifthTitle p
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	font-weight: bolder;
+	letter-spacing: 5px;
+	color: #00829C;
+}
+
+.firstPara, .secondPara, .thirdPara, .forthPara, .fifthPara
+{
+	width: 500px;
+}
+
+.firstPara p, .secondPara p, .thirdPara p, .forthPara p, .fifthPara p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+
+
+
+/* Our Values Styling Ends Here */
+
+/* Our Beers Styling Starts Here */
+
+.beerContainer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	width: 1200px;
+	height: 890px;
+	margin-top: 50px;
+	background-color: orange;
+	border-radius: 50%;
+}
+
+.beerBrands
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	margin-top: 200px;
+	margin-left: 100px;
+}
+
+.beerTitle p
+{
+	font-family: 'Seaweed Script', cursive;
+	font-size: 60px;
+	color: black;
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 300px;
+}
+
+.beerCol_01 p, .beerCol_02
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	color: white;
+	line-height: 50px;
+}
+
+.beerCol_02
+{
+	margin-left: 100px;
+}
+/* Our Beers Styling Ends Here */
