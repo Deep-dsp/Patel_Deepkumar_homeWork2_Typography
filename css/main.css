@@ -382,3 +382,62 @@ ul li.active a
 	margin-left: 100px;
 }
 /* Our Beers Styling Ends Here */
+
+/* Contact Paner Styling Starts Here */
+
+.contactContainer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	width: 1200px;
+	height: 600px;
+	background-color: black;
+	border-radius: 10px;
+	margin-top: 100px;
+}
+
+.contactCol
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.contactTitle p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+	color: white;
+	text-align: center;
+}
+
+.contactPara
+{
+	width: 500px;
+	margin-bottom: 150px;
+}
+
+.contactPara p, .phoneEmail p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	color: white;
+}
+
+.phoneEmail p
+{
+	text-align: center;
+}
+
+.referenceLink p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: white;
+}
+/* Contact Paner Styling Ends Here */
