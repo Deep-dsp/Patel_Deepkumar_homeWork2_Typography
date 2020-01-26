@@ -4,6 +4,11 @@ body
 	margin: auto;
 }
 
+.hidden
+{
+	display: none;
+}
+
 /* Header Styling Starts Here */
 
 header
