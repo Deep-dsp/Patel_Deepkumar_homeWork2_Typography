@@ -1,0 +1,468 @@
+body
+{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.hidden
+{
+	display: none;
+}
+
+/* Header Styling Starts Here */
+
+header
+{	
+	width: 1200px;
+	height: 121px;
+	background-color: black;
+
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.logo
+{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.logo img
+{
+	width: 100px;
+	height: auto;
+}
+
+nav
+{
+	margin-left: 400px;
+	margin-top: 5px;
+}
+
+ul li
+{
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 20px;
+}
+
+ul li a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	padding: 10px 20px;
+	border: 1px solid;
+	border-radius: 6px;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+
+ul li a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+ul li.active a
+{
+	border-radius: 6px;
+	background-color: white;
+	color: black;
+}
+
+/* Header Styling Ends Here */
+
+/* Home Image and title Styling starts here */
+
+.homeImage
+{
+	width: 1200px;
+	height: 475px;
+	background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url('../images/why-muskoka.jpg');
+	background-repeat: no-repeat;
+	background-size: 1200px auto;
+}
+
+.mainTitle p
+{
+	font-family: 'Seaweed Script', cursive;
+	font-size: 100px;
+	color: black;
+	text-align: center;
+	margin-right: 200px;
+	position: absolute;
+	top: 130px;
+	padding-left: 200px;
+	color: white;
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+/* Home Image and title Styling ends here */
+
+/* About Styling starts here */
+
+.aboutTitle
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.aboutIntro
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 1200px;
+}
+
+/*.subTitle
+{
+	margin-top: 35px;
+}*/
+
+.intro
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.subTitle p
+{
+	font-family: 'Arial';
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.title
+{
+	font-family: 'Seaweed Script', cursive;
+	font-family: 'Anton', sans-serif;
+	font-size: 25px;
+	font-size: bolder;
+	text-align: justify;
+	letter-spacing: 2px;
+	color: #00829C;
+}
+
+.smallText p
+{
+	font-family: 'Arial';
+	font-size: 15px;
+	text-align: center;
+	position: relative;
+	bottom: 25px;
+
+}
+
+.titleAlign
+{
+	margin-bottom: 25px;
+}
+
+/* About Styling starts here */
+
+/* Why Masuka stlying starts here */
+	
+.whyContainer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+	width: 1200px;
+	height: 419px;
+	background-color: #00829C;
+}
+
+.whyTitle
+{
+	font-family: 'Seaweed Script', cursive;
+	font-size: 60px;
+	color: black;
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 40px;
+	right: -150px;
+}
+
+.whyPara
+{
+	max-width: 500px;
+	height: auto;
+	position: relative;
+	left: 350px;
+	top: 90px;
+
+}
+
+.whyPara p
+{
+	font-size: 20px;
+	font-family: 'Arial';
+	color: white;
+	text-align: justify;
+}
+
+/* why masuka ends here */
+
+/* Image Container Styling Starts Here */
+
+.imageContainer
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	width: 1200px;
+	height: 531px;
+	background-color: #DCDCDC;
+}
+
+.imageTitle
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.imageTitle p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+	color: #00829C;
+}
+
+.imagePlane
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 30px;
+}
+
+.imageRow img
+{
+	margin-top: 25px;
+}
+
+.imagePlane img
+{
+	width: 350px;
+	height: auto;
+}
+
+.imageMid img
+{
+	width: 400px;
+	height: auto;
+}
+
+
+/* Image Container Styling Ends Here */
+
+/* Our Values Styling Starts Here */
+
+.brandValues, .firstValue, .secondValue, .thirdValue, .forthValue, .fifthValue
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	margin-top: 50px;
+}
+
+.fifthValue
+{
+	margin-left: 65px;
+}
+
+.valueTitle, .valueQuote
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.valuesContainer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.valuesContainer_fifth
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;	
+}
+
+.valueTitle p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+	color: #00829C;	
+}
+
+.valueQuote
+{
+	position: relative;
+	bottom: 28px;
+}
+
+.valueQuote p
+{
+	font-size: 25px;
+	font-family: 'Seaweed Script', cursive;
+}
+
+.firstTitle p, .secondTitle p, .thirdTitle p, .forthTitle p, .fifthTitle p
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	font-weight: bolder;
+	letter-spacing: 5px;
+	color: #00829C;
+}
+
+.firstPara, .secondPara, .thirdPara, .forthPara, .fifthPara
+{
+	width: 500px;
+}
+
+.firstPara p, .secondPara p, .thirdPara p, .forthPara p, .fifthPara p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+
+
+
+/* Our Values Styling Ends Here */
+
+/* Our Beers Styling Starts Here */
+
+.beerContainer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	width: 1200px;
+	height: 890px;
+	margin-top: 50px;
+	background-color: orange;
+	border-radius: 50%;
+}
+
+.beerBrands
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	margin-top: 200px;
+	margin-left: 100px;
+}
+
+.beerTitle p
+{
+	font-family: 'Seaweed Script', cursive;
+	font-size: 60px;
+	color: black;
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 300px;
+}
+
+.beerCol_01 p, .beerCol_02
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	color: white;
+	line-height: 50px;
+}
+
+.beerCol_02
+{
+	margin-left: 100px;
+}
+/* Our Beers Styling Ends Here */
+
+/* Contact Paner Styling Starts Here */
+
+.contactContainer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	width: 1200px;
+	height: 600px;
+	background-color: black;
+	margin-top: 100px;
+}
+
+.contactCol
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.contactTitle p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+	color: white;
+	text-align: center;
+}
+
+.contactPara
+{
+	width: 500px;
+	margin-bottom: 150px;
+}
+
+.contactPara p, .phoneEmail p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	color: white;
+}
+
+.phoneEmail p
+{
+	text-align: center;
+}
+
+.referenceLink p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: white;
+}
+/* Contact Paner Styling Ends Here */
